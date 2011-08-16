@@ -39,7 +39,7 @@ The real magic of this little library (~120 lines, altogether) is the ability to
         <script type="text/javascript" src="scripts/pez-analytics-1.0.js"></script> 
     </head> 
 
-Pez Analytics also registers the �ga� variable on the DOM. You can use this variable to fire off custom tracking events whenever you see fit:
+Pez Analytics also registers the <strong>ga</strong> variable on the DOM. You can use this variable to fire off custom tracking events whenever you see fit:
 
     <script type="text/javascript"> 
         $(function() { 

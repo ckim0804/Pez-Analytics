@@ -57,11 +57,11 @@
                     return;
                 }
                 if (href.indexOf('http') === 0) {
-                    e.preventDefault();
                     var domain = href.split(/^https?:\/\/[^\/]\//)[0].split('//')[1].split('/')[0].toLowerCase();
                     if (domain == window.location.hostname.toLowerCase()) {
                         return;
                     }
+					e.preventDefault();
                     _a.track({
                         category: 'Outbound Links',
                         action: domain,
